@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoLock</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Service</string>
+    <string name="title_section2">Settings</string>
+    <string name="title_section3">About</string>
+    <string name="view1_textview">wahhaha textview 1</string>
+    <string name="view2_textview">wahhaha textview 2</string>
+    <string name="view3_textview">wahhaha textview 3</string>
+    <string name="setSensitivity">Set Sensitivity(Recommends setting between 3 and 7)</string>
+    <string name="setLockPosition">Click the setting button, then move your device to your lock posture for about 1 second until it vibrates</string>
+    <string name="setUnlockPosition">Click the setting button, then move your device to your unlock posture for about 1 second until it vibrates</string>
+	<string name="setting_successed">Set successfully!</string>
+	<string name="setLockButton">Set Lock</string>
+	<string name="setUnlockButton">Set Unlock</string>
+	<string name="copyright">Copyright©2013 nikoluckystar@gmail.com</string>
+    
+    
+</resources>

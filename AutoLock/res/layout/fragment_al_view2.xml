@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:text="@string/setSensitivity"
+        android:textColor="#cbcaca"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_set"
+        android:text="@string/setUnlockButton"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="3"
+        android:shadowRadius="0.0"
+        android:textColor="#cbcaca" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="19dp"
+        android:text="@string/setLockPosition"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#cbcaca" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar1"
+        android:layout_marginTop="17dp"
+        android:text="@string/setUnlockPosition"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#cbcaca" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_set"
+        android:text="@string/setLockButton"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="0"
+        android:shadowRadius="1.00"
+        android:textColor="#aab0aa" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="14dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#cbcaca" />
+
+</RelativeLayout>
